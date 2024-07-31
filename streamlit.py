@@ -4,6 +4,7 @@ from tensorflow.keras.layers import Embedding, Dense, GlobalAveragePooling1D
 
 st.title("Modèle Word2Vec")
 
+vocab_size = 10000
 embedding_dim = 300
 model = Sequential()
 model.add(Embedding(vocab_size, embedding_dim))
